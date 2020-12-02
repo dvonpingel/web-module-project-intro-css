@@ -66,6 +66,7 @@ nav a {
     font-size: 1.5rem;
     width: 100px;
     padding: 8px 15px;
+    transition: .3s;
 }
 .learn {
     background-color: #5ED3EB;
@@ -116,7 +117,7 @@ div p.reserves{
 }
 
 /* fire section */
-.fire img{
+.fire img {
     display: block;
     width: 100px;
     margin-left: auto;
@@ -166,3 +167,10 @@ b {
 }
 
 /* STRETCH */
+.highbar a:hover {
+    background-color: rgb(201, 231, 201);
+    color: black;
+}
+.lowbar a:hover {
+    background-color: rgb(83, 41, 16);
+}
