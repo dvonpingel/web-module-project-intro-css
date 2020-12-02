@@ -107,6 +107,7 @@ div p.reserves{
     width: 90%;
     text-align: center;
     margin-left: 5%;
+    margin-top: 30px;
     font-size: 1.6rem;
     padding: 15px;
 }
@@ -161,5 +162,7 @@ b {
     height: 400px;
 }
 .lowbar a {
-    margin-top: 50px;
+    margin-top: 30px;
 }
+
+/* STRETCH */
