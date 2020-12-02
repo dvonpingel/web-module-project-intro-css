@@ -42,7 +42,124 @@ table {
 	border-spacing: 0;
 }
 /* END OF RESET */
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+}
 
-.highnav a {
-    
+/* navigation bar customs */
+nav {
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 7%;
+    margin-left: 7%;
+    color: white;
+    border-radius: 10px;
+    background-color: #FF764E;
+    font-size: 1.5rem;
+    width: 100px;
+    padding: 8px 15px;
+}
+.learn {
+    background-color: #5ED3EB;
+}
+.involve {
+    background-color: #FFCD69;
+}
+
+/* header customs*/
+header img {
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 15%;
+    margin-top: 4%;
+}
+h1 {
+    font-size: 5rem;
+    font-family: 'Chelsea Market', cursive;
+    margin-left: 35%;
+    margin-top: -160px;
+}
+div p{
+    font-size: 1.6rem;
+    padding: 10px;
+    margin-left: 37%;
+    margin-top: 10px;
+    width: 500px;
+    text-align: center;
+}
+div p.reserves{
+    padding-left: 50px;
+    width: 380px;
+}
+
+/* brown section customs */
+.informational {
+    background-color: #DDB9A3;
+    color: white;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    font-size: 1.6rem;
+    padding: 15px;
+}
+.twomain {
+    padding-top: 15px;
+}
+
+/* fire section */
+.fire img{
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.fire p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+b {
+    font-weight: bold;
+}
+
+/* camper section */
+.camper img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    margin-top: 40px;
+}
+.camper p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* footer pic */
+.footy {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.lowbar {
+    background-color: #F9E7DC;
+    height: 400px;
+}
+.lowbar a {
+    margin-top: 50px;
 }
