@@ -152,11 +152,14 @@ b {
 }
 
 /* footer pic */
-.footy {
-    height: 250px;
+.footy{
     width: 100%;
-    overflow: hidden;
+    height: 250px;
+    background-image: url('assets/footer_img.jpg');
+    background-size: 100%;
     margin-top: 50px;
+    overflow: hidden;
+    background-position: top;
 }
 .lowbar {
     background-color: #F9E7DC;
